@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4740516570870394}
   - component: {fileID: 212369144706360800}
-  - component: {fileID: 70160795683376544}
-  - component: {fileID: 50682075059358810}
+  - component: {fileID: 58089938584377008}
+  - component: {fileID: 50831554003283958}
+  - component: {fileID: 114701208174451604}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Ball
@@ -36,13 +37,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1693509333129008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17, y: 0.33, z: 0}
+  m_LocalPosition: {x: -0.33036768, y: 2.9000354, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50682075059358810
+--- !u!50 &50831554003283958
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -61,22 +62,34 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!70 &70160795683376544
-CapsuleCollider2D:
+  m_Constraints: 4
+--- !u!58 &58089938584377008
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1693509333129008}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 067a77a71568c18489d17f62feb816cf, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.2, y: 1.2}
-  m_Direction: 0
+  serializedVersion: 2
+  m_Radius: 0.6
+--- !u!114 &114701208174451604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693509333129008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2c259f4fd61364b8fed0d734aec1a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!212 &212369144706360800
 SpriteRenderer:
   m_ObjectHideFlags: 1
