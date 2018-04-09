@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 23fc79bb5c89ebb4f93e3852e0d061da
-timeCreated: 1523265111
+timeCreated: 1523279586
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,13 @@ TextureImporter:
     21300036: breakout_sprites_18
     21300038: breakout_sprites_19
     21300040: brick_0
+    21300042: breakout_sprites_0
+    21300044: breakout_sprites_20
+    21300046: breakout_sprites_21
+    21300048: brick_0
+    21300050: breakout_sprites_22
+    21300052: breakout_sprites_23
+    21300054: breakout_sprites_24
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -101,13 +108,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: brick_0
+      name: breakout_sprites_0
       rect:
         serializedVersion: 2
-        x: 239
-        y: 325
-        width: 34
-        height: 35
+        x: 0
+        y: 0
+        width: 400
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,6 +384,90 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: breakout_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 156
+        width: 10
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: breakout_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 91
+        width: 55
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: brick_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 327
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: breakout_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: breakout_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 301
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: breakout_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 328
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
