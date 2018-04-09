@@ -14,8 +14,9 @@ public class Ball : MonoBehaviour {
 	}
 	void Start () {
 		// yo
-		rb.velocity = rb.velocity + Vector2.up;
-		
+		rb.velocity = new Vector2(1,1)*speed;
+
+	
 	}
 	
 	// Update is called once per frame
