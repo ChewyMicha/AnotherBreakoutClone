@@ -19,7 +19,7 @@ public class Brick : MonoBehaviour {
         {
             sp.sprite = newSP;
             hp--;
-            if (hp > 0)
+            if (hp < 0)
             {
                 Destroy(gameObject);
             }
