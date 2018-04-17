@@ -7,7 +7,14 @@ public class Brick : MonoBehaviour {
     public Sprite newSP;
     public float maxHp;
     private float hp;
+	Camera cam;
+	ScreenShake screenshake;
 	// Use this for initialization
+	private void Awake()
+	{
+		cam = Camera.main.GetComponent<Camera>();
+		screenshake = cam.GetComponent<ScreenShake>();
+	}
 	void Start () {
         sp = GetComponent<SpriteRenderer>();
         hp = maxHp;
@@ -17,6 +24,7 @@ public class Brick : MonoBehaviour {
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+			StartCoroutine(screenshake.Shake(0.5f, .5f));
             sp.sprite = newSP;
             hp--;
             if (hp <= 0)
